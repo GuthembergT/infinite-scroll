@@ -79,10 +79,10 @@ h1 {
   display: flex;
   position: fixed;
   bottom: 50px;
-  transition: opacity 0.3 ease-in;
+  transition: opacity 0.3s ease-in;
 }
 
-.loader .show {
+.loader.show {
   opacity: 1;
 }
 
